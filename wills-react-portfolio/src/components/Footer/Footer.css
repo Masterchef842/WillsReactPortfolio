@@ -1,0 +1,29 @@
+:root{
+    --blue: #496DDB;
+    --lightBlue: #717EC3;
+    --white: #E0E2DB;
+    --grey: #35605A;
+    --black: #00120B;
+}
+#bottom{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: var(--blue);
+    border: 2px solid var(--black);  
+}
+.socialImg{
+    height: 4%;
+    width: 4%;
+    min-width:30px;
+    min-height:30px;
+    transition:height 0.5s, width 0.5s ;
+}
+.socialImg:hover{
+    height: 6%;
+    width: 6%;
+}
+li{
+    padding: 0 8%;
+    display: inline;
+}

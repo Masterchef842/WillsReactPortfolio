@@ -1,0 +1,54 @@
+:root{
+    --blue: #496DDB;
+    --lightBlue: #717EC3;
+    --white: #E0E2DB;
+    --grey: #35605A;
+    --black: #00120B;
+}
+#header{
+    width: 100%;
+    position: fixed;
+}
+h1{
+    font-size: 200%;
+    animation: 2.3s ease-out 0s 1 slideInFromLeft; ;
+}
+nav {
+    padding: 0px;
+    background-color: var(--blue);
+    border: 2px solid var(--black);  
+    
+}
+.navListItem{
+    font-size: 100%;
+    padding:0 5%;
+    margin: auto 30px;
+    display: inline-block;
+    transition: font-size 0.5s, text-shadow 0.5s;
+    
+    
+    
+}
+.navListItem:hover{
+    /* border: 2px solid black; */
+    font-size: 150%;
+    text-shadow: 4px 4px 5px var(--white);
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    40% {
+      transform: translateX(0);
+      font-size: 200%
+    }
+    55%{
+        font-size: 140%;
+    }
+    80%{
+        font-size: 260%;
+    }
+    100%{
+        font-size: 200%;
+    }
+  }
