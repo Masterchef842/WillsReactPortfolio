@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Container, Row, Col, Button } from "react-bootstrap";
 export default function ShowcaseCard({ project }) {
   return (
-    <Card className="my-3">
+    <Card  className="my-3">
       <Card.Header>{project.title}</Card.Header>
       <Card.Body>
         <Row>

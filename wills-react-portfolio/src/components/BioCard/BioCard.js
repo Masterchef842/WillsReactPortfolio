@@ -20,7 +20,7 @@ export default function BioCard() {
             <Nav.Link href="#link">Education</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#disabled" d>
+            <Nav.Link href="#disabled">
               Skills
             </Nav.Link>
           </Nav.Item>
@@ -31,45 +31,46 @@ export default function BioCard() {
           <Row>
             <Col xs={4}>
               <Card.Img src="http://shackmanlab.org/wp-content/uploads/2013/07/person-placeholder.jpg" />
+              
             </Col>
             <Col>
-              <Card.Text
+              <div
                 name="bio"
                 style={bioTab === "bio" ? {} : { display: "none" }}
                 
               >
-                <p>
+                <Card.Text>
                   Hello, I'm Robert William "Will" Lord, a highly motivated and
                   skilled full-stack web developer with expertise in React,
                   Bootstrap, MERN Stack, and associated technologies. My coding
                   journey began in high school with learning Java, which I
                   nurtured through a comprehensive three-year computer science
                   program.
-                </p>
+                </Card.Text>
 
-                <p>
+                <Card.Text>
                   I graduated from Southwestern University in 2021 with a
                   Bachelor of Arts in Political Science and a minor in music. In
                   2023, I completed the University of Texas Full-Stack Flex
                   coding boot camp with an exceptional grade of 94.5%.
-                </p>
+                </Card.Text>
 
-                <p>
+                <Card.Text>
                   I possess proficiency in JavaScript ES6, front-end and
                   back-end development, object-oriented programming, and various
                   databases like NoSQL (MongoDB and Mongoose) and
                   MySQL/Sequelize. I also have hands-on experience with Git,
                   Heroku, Handlebars.js, and Jest for testing.
-                </p>
+                </Card.Text>
 
-                <p>
+                <Card.Text>
                   As a lifelong learner, I'm committed to staying updated with
                   the latest industry trends and best practices. I thrive on
                   challenges and enjoy collaborating with diverse teams to
                   create innovative solutions.
-                </p>
+                </Card.Text>
 
-                <p>
+                <Card.Text>
                   Whether as a valuable addition to your company or as a
                   freelance collaborator, I'm dedicated to utilizing my
                   technical expertise and problem-solving skills to achieve
@@ -77,8 +78,8 @@ export default function BioCard() {
                   my detailed resume, or get in touch through the contact form.
                   I look forward to connecting and discussing potential
                   opportunities.
-                </p>
-              </Card.Text>
+                </Card.Text>
+              </div>
             </Col>
           </Row>
         </Container>

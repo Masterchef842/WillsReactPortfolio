@@ -1,10 +1,17 @@
 import React from "react";
+import { Button, Container, Row, Col } from "react-bootstrap";
 
 function Resume(){
 
     return (
-        <h1>Test</h1>
-    )
+        <Row className="top-50">
+            <Col>
+            <Button className="top-50">TEST</Button>
+            </Col>
+            
+        </Row>
+        
+    );
 
 }
 

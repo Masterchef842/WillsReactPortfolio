@@ -63,9 +63,9 @@ function Showcase() {
     return projData.map((project) => {
         if(project.featured){
             return (
-                <Carousel.Item>
+                <Carousel.Item key={project.title}>
                   <a href={project.url || project.git}>
-                    <img src={project.image} style={{ height: "400px" }} />
+                    <img src={project.image} style={{ height: "55vh" }} />
                   </a>
                   <Carousel.Caption
                     style={{
@@ -88,7 +88,7 @@ function Showcase() {
 
   const renderCards=()=>{
     return (projData.map((proj ,i)=>{
-        return (<ShowcaseCard project={proj}/>) 
+        return (<ShowcaseCard key={proj.title} project={proj}/>) 
         
     }));
   }
@@ -96,22 +96,28 @@ function Showcase() {
   return (
     <>
     
-    <Container style={{height: "90vh"}}>
+    <Container style={{height: "90vh"}}fluid>
+        
+    
+       
+   
+    
       <Row>
+      <h2>FEATURED PROJECTS</h2> 
         <Col xs={6}>
           <Carousel
             activeIndex={index}
             onSelect={handleSelect}
-            className="top-50"
-            style={{ border: "solid 5px black" }}
+            
+            style={{top:"20vh", border: "solid 5px black" }}
           >
             {renderProjects()}
           </Carousel>
         </Col>
         <Col xs={6}>
-          <Card className="top-50" style={{ height: "410px", alignItems: "center"}}>
+          <Card  style={{ top:"20vh",height: "56vh", alignItems: "center"}}>
             <Card.Body>
-              <Card.Header>{projData[index].title}</Card.Header>
+              <Card.Header><Card.Title>{projData[index].title}</Card.Title></Card.Header>
               <Card.Text>{projData[index].projectDesc}</Card.Text>
             </Card.Body>
             <Row className="justify-content-between" style={{bottom: "10px"}}>
