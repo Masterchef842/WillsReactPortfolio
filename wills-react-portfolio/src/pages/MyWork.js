@@ -111,7 +111,7 @@ function Showcase() {
         <Col xs={6}>
           <Card className="top-50" style={{ height: "410px", alignItems: "center"}}>
             <Card.Body>
-              <Card.Title>{projData[index].title}</Card.Title>
+              <Card.Header>{projData[index].title}</Card.Header>
               <Card.Text>{projData[index].projectDesc}</Card.Text>
             </Card.Body>
             <Row className="justify-content-between" style={{bottom: "10px"}}>
@@ -127,7 +127,7 @@ function Showcase() {
         </Col>
       </Row>
     </Container>
-    <Container className="justify-content-center"fluid>
+    <Container className="justify-content-center" style={{margin:"auto auto 20vh"}} fluid>
         <h2 style={{background: "#496DDB", border: "solid 5px black"}}>All Projects</h2>
         {renderCards()}
     </Container>

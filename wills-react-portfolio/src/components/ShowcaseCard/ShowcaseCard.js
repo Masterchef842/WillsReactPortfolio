@@ -3,13 +3,13 @@ import { Card, Container, Row, Col, Button } from "react-bootstrap";
 export default function ShowcaseCard({ project }) {
   return (
     <Card className="my-3">
-      <Card.Title>{project.title}</Card.Title>
+      <Card.Header>{project.title}</Card.Header>
       <Card.Body>
         <Row>
           <Col>
-            <img
+            <Card.Img
               src={project.image}
-              style={{ height: "150px", border: "5px solid black" }}
+              style={{ border: "5px solid black" }}
             />
           </Col>
           <Col>
@@ -25,7 +25,7 @@ export default function ShowcaseCard({ project }) {
                 </Button>
               </Col>
               <Col>
-                <Button style={{ width: "100%" }} href={project.git}>
+                <Button style={{ width: "100%", bottom: "10"}} href={project.git}>
                   GitHub
                 </Button>
               </Col>
