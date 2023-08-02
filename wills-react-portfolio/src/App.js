@@ -25,7 +25,7 @@ function App() {
         rel="stylesheet"
       ></link>
 
-      <Router basename='wills-react-portfolio'>
+      <Router basename='WillsReactPortfolio'>
         <Container fluid>
           <Row>
               <PageHeader />
