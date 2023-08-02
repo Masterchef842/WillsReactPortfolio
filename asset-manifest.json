@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wills-react-portfolio/static/css/main.78ae2aef.css",
-    "main.js": "/wills-react-portfolio/static/js/main.f496f25a.js",
+    "main.js": "/wills-react-portfolio/static/js/main.a9834dbb.js",
     "static/js/787.3116dd9d.chunk.js": "/wills-react-portfolio/static/js/787.3116dd9d.chunk.js",
     "static/media/TMF.png": "/wills-react-portfolio/static/media/TMF.0b2a52099f713b378394.png",
     "static/media/SMT.png": "/wills-react-portfolio/static/media/SMT.91ae99b8c6011abacef3.png",
@@ -9,11 +9,11 @@
     "static/media/JATE.png": "/wills-react-portfolio/static/media/JATE.2a43c6cd481892b25315.png",
     "index.html": "/wills-react-portfolio/index.html",
     "main.78ae2aef.css.map": "/wills-react-portfolio/static/css/main.78ae2aef.css.map",
-    "main.f496f25a.js.map": "/wills-react-portfolio/static/js/main.f496f25a.js.map",
+    "main.a9834dbb.js.map": "/wills-react-portfolio/static/js/main.a9834dbb.js.map",
     "787.3116dd9d.chunk.js.map": "/wills-react-portfolio/static/js/787.3116dd9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78ae2aef.css",
-    "static/js/main.f496f25a.js"
+    "static/js/main.a9834dbb.js"
   ]
 }
