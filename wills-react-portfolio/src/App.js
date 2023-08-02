@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useEffect} from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -16,6 +16,10 @@ import Resume from "./pages/Resume";
 import "./App.css";
 
 function App() {
+
+  useEffect(()=>{
+    document.title="Wills Portfolio"
+  },[]);
   return (
     <div className="App">
       <link rel="preconnect" href="https://fonts.googleapis.com" />
