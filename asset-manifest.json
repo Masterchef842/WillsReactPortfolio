@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/wills-react-portfolio/static/css/main.78ae2aef.css",
-    "main.js": "/wills-react-portfolio/static/js/main.906bcc28.js",
-    "static/js/787.3116dd9d.chunk.js": "/wills-react-portfolio/static/js/787.3116dd9d.chunk.js",
-    "static/media/TMF.png": "/wills-react-portfolio/static/media/TMF.0b2a52099f713b378394.png",
-    "static/media/SMT.png": "/wills-react-portfolio/static/media/SMT.91ae99b8c6011abacef3.png",
-    "static/media/WWWOT.png": "/wills-react-portfolio/static/media/WWWOT.67b71ee5dc143497f0bb.png",
-    "static/media/JATE.png": "/wills-react-portfolio/static/media/JATE.2a43c6cd481892b25315.png",
-    "index.html": "/wills-react-portfolio/index.html",
-    "main.78ae2aef.css.map": "/wills-react-portfolio/static/css/main.78ae2aef.css.map",
-    "main.906bcc28.js.map": "/wills-react-portfolio/static/js/main.906bcc28.js.map",
-    "787.3116dd9d.chunk.js.map": "/wills-react-portfolio/static/js/787.3116dd9d.chunk.js.map"
+    "main.css": "/WillsReactPortfolio/static/css/main.78ae2aef.css",
+    "main.js": "/WillsReactPortfolio/static/js/main.2a115d54.js",
+    "static/js/787.3116dd9d.chunk.js": "/WillsReactPortfolio/static/js/787.3116dd9d.chunk.js",
+    "static/media/TMF.png": "/WillsReactPortfolio/static/media/TMF.0b2a52099f713b378394.png",
+    "static/media/SMT.png": "/WillsReactPortfolio/static/media/SMT.91ae99b8c6011abacef3.png",
+    "static/media/WWWOT.png": "/WillsReactPortfolio/static/media/WWWOT.67b71ee5dc143497f0bb.png",
+    "static/media/JATE.png": "/WillsReactPortfolio/static/media/JATE.2a43c6cd481892b25315.png",
+    "index.html": "/WillsReactPortfolio/index.html",
+    "main.78ae2aef.css.map": "/WillsReactPortfolio/static/css/main.78ae2aef.css.map",
+    "main.2a115d54.js.map": "/WillsReactPortfolio/static/js/main.2a115d54.js.map",
+    "787.3116dd9d.chunk.js.map": "/WillsReactPortfolio/static/js/787.3116dd9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78ae2aef.css",
-    "static/js/main.906bcc28.js"
+    "static/js/main.2a115d54.js"
   ]
 }
