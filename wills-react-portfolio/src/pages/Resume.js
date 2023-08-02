@@ -3,7 +3,7 @@ import { Button, Container, Row, Col } from "react-bootstrap";
 
 
 function Resume(){
-    const PDFurl='http://localhost:3000/RobertLordResume.pdf'
+    const PDFurl='http://masterchef842.github.io/WillsReactPortfolio/RobertLordResume.pdf'
     const downloadFile=(url)=>{
         const aTag=document.createElement('a');
         aTag.href=url;
