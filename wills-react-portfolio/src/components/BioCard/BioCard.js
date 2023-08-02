@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Card, Container, Row, Col, Nav } from "react-bootstrap";
 
+
 export default function BioCard() {
   const [bioTab, setTab] = useState("bio");
 
@@ -30,7 +31,7 @@ export default function BioCard() {
         <Container>
           <Row>
             <Col xs={4}>
-              <Card.Img src="http://shackmanlab.org/wp-content/uploads/2013/07/person-placeholder.jpg" />
+              <Card.Img src="http://masterchef842.github.io/WillsReactPortfolio/self_photo.jpg" />
               
             </Col>
             <Col>
