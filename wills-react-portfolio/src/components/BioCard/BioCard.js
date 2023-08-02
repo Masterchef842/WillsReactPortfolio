@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Card, Container, Row, Col, Nav } from "react-bootstrap";
+import selfie from "../../assets/selfie.jpg"
 
 
 export default function BioCard() {
@@ -31,7 +32,7 @@ export default function BioCard() {
         <Container>
           <Row>
             <Col xs={4}>
-              <Card.Img src="http://masterchef842.github.io/WillsReactPortfolio/self_photo.jpg" />
+              <Card.Img src={selfie}  style={{border: "5px solid black"}}/>
               
             </Col>
             <Col>
