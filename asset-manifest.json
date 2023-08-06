@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/WillsReactPortfolio/static/css/main.78ae2aef.css",
-    "main.js": "/WillsReactPortfolio/static/js/main.d713e60b.js",
+    "main.js": "/WillsReactPortfolio/static/js/main.711e1c4f.js",
     "static/js/787.3116dd9d.chunk.js": "/WillsReactPortfolio/static/js/787.3116dd9d.chunk.js",
+    "static/media/DG.gif": "/WillsReactPortfolio/static/media/DG.900cdce0568c0ffa778d.gif",
     "static/media/TMF.png": "/WillsReactPortfolio/static/media/TMF.0b2a52099f713b378394.png",
     "static/media/SMT.png": "/WillsReactPortfolio/static/media/SMT.91ae99b8c6011abacef3.png",
     "static/media/selfie.jpg": "/WillsReactPortfolio/static/media/selfie.89db8df745c3f7ca9765.jpg",
     "static/media/WWWOT.png": "/WillsReactPortfolio/static/media/WWWOT.67b71ee5dc143497f0bb.png",
+    "static/media/SMW.png": "/WillsReactPortfolio/static/media/SMW.6d9b5f74366d7271d528.png",
     "static/media/JATE.png": "/WillsReactPortfolio/static/media/JATE.2a43c6cd481892b25315.png",
     "index.html": "/WillsReactPortfolio/index.html",
     "main.78ae2aef.css.map": "/WillsReactPortfolio/static/css/main.78ae2aef.css.map",
-    "main.d713e60b.js.map": "/WillsReactPortfolio/static/js/main.d713e60b.js.map",
+    "main.711e1c4f.js.map": "/WillsReactPortfolio/static/js/main.711e1c4f.js.map",
     "787.3116dd9d.chunk.js.map": "/WillsReactPortfolio/static/js/787.3116dd9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78ae2aef.css",
-    "static/js/main.d713e60b.js"
+    "static/js/main.711e1c4f.js"
   ]
 }
